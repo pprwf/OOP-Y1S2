@@ -16,15 +16,4 @@ public class Fraction {
             btmN *= f.btmN;
         }
     }
-    public boolean myEquals(Fraction x) {
-        return (1.0 * topN / btmN) == (1.0 * x.topN / x.btmN);
-    }
-    public void LowestTermFrac() {
-        for (int num = topN; num > 0; num--) {
-            if (topN % num == 0) {
-                topN /= num;
-                btmN /= num;
-            }
-        }
-    }
 }
