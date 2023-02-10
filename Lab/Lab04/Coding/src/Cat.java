@@ -1,4 +1,4 @@
-public class Exam4_Cat {
+public class Cat {
     private String name, color;
     public double height, weight;
     private void setWeight(double w) {
