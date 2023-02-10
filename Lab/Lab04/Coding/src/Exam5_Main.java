@@ -1,14 +1,14 @@
 public class Exam5_Main {
     public static void main(String[] args) {
-        Exam5_Customer c = new Exam5_Customer();
+        Customer c = new Customer();
         c.name = "Taravichet";
         
-        Exam5_MyDate dob = new Exam5_MyDate();
+        MyDate dob = new MyDate();
         dob.day = 8;
         dob.month = 11;
         dob.year = 2023;
         
-        Exam5_Account acct = new Exam5_Account();
+        Account acct = new Account();
         acct.name = c.name;
         acct.balance = 500;
         

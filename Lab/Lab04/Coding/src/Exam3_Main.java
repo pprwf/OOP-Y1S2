@@ -1,14 +1,14 @@
 public class Exam3_Main {
     public static void main(String[] args) {
-        Exam2_Fraction f1 = new Exam2_Fraction();
+        Fraction f1 = new Fraction();
         f1.topN = 1;
         f1.btmN = 3;
         
-        Exam2_Fraction f2 = new Exam2_Fraction();
+        Fraction f2 = new Fraction();
         f2.topN = 4;
         f2.btmN = 16;
         
-        Exam2_Fraction f3 = new Exam2_Fraction();
+        Fraction f3 = new Fraction();
         f3.topN = 5;
         f3.btmN = 15;
         
