@@ -3,7 +3,8 @@ import java.util.*;
 public class Exam2_DepositInterest {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
-        double deposit, netWorth;
+        double deposit;
+        double netWorth;
         char accountType;
         System.out.print("Input your money : ");
         deposit = input.nextDouble();
