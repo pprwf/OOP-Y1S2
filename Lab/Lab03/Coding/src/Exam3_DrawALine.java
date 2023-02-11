@@ -8,7 +8,8 @@ public class Exam3_DrawALine {
         for (int count = 1; count <= num; count++) {
             if (count % 5 == 0) {
                 System.out.print("/");
-            } else {
+            }
+            else {
                 System.out.print("|");
             }
         }

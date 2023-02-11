@@ -7,7 +7,8 @@ public class Exam2_EvenAndOdd {
         while (num != -1) {
             if (num % 2 == 0) {
                 even += 1;
-            } else {
+            }
+            else {
                 odd += 1;
             }
             num = sc.nextInt();

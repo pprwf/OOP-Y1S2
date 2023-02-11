@@ -9,7 +9,8 @@ public class Exam4_BetterDrawALine {
             if (count % 5 == 0) {
                 System.out.print("|");
                 System.out.println("");
-            } else {
+            }
+            else {
                 System.out.print("|");
             }
         } System.out.println("");
