@@ -1,30 +1,40 @@
 public class Exam1_Main {
     public static void main(String[] args) {
-    Plane p1 = new Plane();
-    p1.setPlaneInfo(500, "High");
-    p1.showPlaneInfo();
-    Car c1 = new Car();
-    c1.setCarInfo(500, "High", "Diesel");
-    c1.showCarInfo();
+        Player p1 = new Player();
+        p1.setName("Bank");
+        p1.setTeam("Gate OR");
+        
+        Player p2 = new Player();
+        p2.setName("Khim");
+        p2.setTeam("Gate OR");
+        
+        if(p1.isSameTeam(p2))
+            System.out.println(p1.getName() + " is a same team with " + p2.getName());
+        else
+            System.out.println(p1.getName() + " is not a same team with " + p2.getName());
+        
+        System.out.println("");
+        
+        Player p3 = new Player();
+        p3.setName("Bank");
+        p3.setTeam("Gate OR");
+
+        Player p4 = new Player();
+        p4.setName("Khim");
+        p4.setTeam("Gate AND");
+
+        if (p3.isSameTeam(p4))
+            System.out.println(p3.getName() + " is a same team with " + p4.getName());
+        else
+            System.out.println(p3.getName() + " is not a same team with " + p4.getName());
     
-    System.out.println("");
-    
-    Plane p2 = new Plane();
-    p2.setPlaneInfo(300, "High");
-    p2.showPlaneInfo();
-    p2.fly();
-    p2.showPlaneInfo();
-    p2.fly();
-    p2.showPlaneInfo();
-    
-    System.out.println("");
-    
-    Car c2 = new Car();
-    c2.setCarInfo(60, "High", "Diesel");
-    c2.showCarInfo();
-    c2.move();
-    c2.showCarInfo();
-    c2.move();
-    c2.showCarInfo();
-    }
+        System.out.println("");
+        
+        /* error
+        Player p5 = new Player();
+        p5.setName("Bank");
+        p5.setTeam("Gate OR");
+        System.out.println(p5.name);
+        */
+  }
 }
