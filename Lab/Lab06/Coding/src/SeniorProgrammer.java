@@ -10,18 +10,11 @@ public class SeniorProgrammer extends Programmer {
             this.setHappiness(this.getHappiness() - 5);
       }
       public void coding (char str) {
-            if (this.getEnergy() >= 10) {
-                  System.out.println("I'm coding about " + str);
-            }
-            else {
-                  System.out.println("ZzZzZz");
-            }
-            this.setEnergy(this.getEnergy() - 5);
-            this.setHappiness(this.getHappiness() - 5);
+            this.coding("" + str);
       }
       public void coding (String str, int num) {
             for (int a = 0; a < num; a++) {
-                  this.coding(str);
+                  this.coding("" + str);
             }
       }
       public void compliment (Programmer p) {

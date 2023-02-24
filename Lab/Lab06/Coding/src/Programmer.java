@@ -11,14 +11,7 @@ public class Programmer extends Employee {
             this.happiness -= 30;
       }
       public void coding (char str) {
-            if (this.getEnergy() >= 30) {
-                  System.out.println("Your code is " + str);
-            }
-            else {
-                  System.out.println("Error Error Error");
-            }
-            this.setEnergy(this.getEnergy() - 30);
-            this.happiness -= 30;
+            this.coding("" + str);
       }
       public int getHappiness () {
             return happiness;
