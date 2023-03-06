@@ -1,5 +1,10 @@
-public class Main {
+public class Exam1_Main {
       public static void main(String[] args) {
+            
+//            System.out.println("------------------------------");
+//            System.out.println("Case Account #00\n");
+//            Account a0 = new Account();
+//            a0.showAccount();
             
             System.out.println("------------------------------");
             System.out.println("Case Account #01\n");

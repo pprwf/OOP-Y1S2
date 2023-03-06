@@ -33,7 +33,7 @@ public class Customer {
       }
       public String toString () {
             if (acct == null) {
-                  return this.getFirstName() + " " + this.getLastName() + " doesn't have account.";
+                  return this.getFirstName() + " " + this.getLastName() + " doesn’t have account.";
             }
             return "The " + this.getFirstName() + " account has " + this.getAcct().getBalance() + " baht and " + this.getAcct().getCredit() + " credits.";
       }

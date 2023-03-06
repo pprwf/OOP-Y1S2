@@ -18,12 +18,12 @@ public class Account {
             if (a < 0) {
                   System.out.println("Input number must be a positive integer.");
             }
-            else if (getBalance() - a < 0) {
+            else if (this.getBalance() - a < 0) {
                   System.out.println("Not enough money!");
             }
             else {
                   System.out.println(a + " baht is withdrawn from " + this.getName() + ".");
-                  setBalance(this.getBalance() - a);
+                  this.setBalance(this.getBalance() - a);
             }
       }
       public void setName (String name) {

@@ -1,7 +1,8 @@
 public class CheckingAccount extends Account{
       private double credit;
       public CheckingAccount () {
-            this(0, "", 0);
+            super(0, "");
+            this.credit = 0;
       }
       public CheckingAccount (double balance, String name, double credit) {
             super(balance, name);
@@ -19,18 +20,18 @@ public class CheckingAccount extends Account{
             return this.credit;
       }
       public void withdraw (double a) {
-            if (this.getBalance() - a + this.credit < 0) {
+            if (this.getBalance() - a + this.getCredit() < 0) {
                   System.out.println("Not enough money!");
             }
             else {
-                  if (balance - a >= 0) {
-                        setBalance(this.getBalance() - a);
+                  if (this.getBalance() - a >= 0) {
+                        this.setBalance(this.getBalance() - a);
                   }
                   else {
                         this.setBalance(0);
                         this.setCredit(this.getCredit() - a);
                   }
-                  System.out.println(a + " baht is withdrawn from " + this.getName() + " and your credit balance is " + this.credit + ".");
+                  System.out.println(a + " baht is withdrawn from " + this.getName() + " and your credit balance is " + this.getCredit() + ".");
             }
       }
       public void withdraw (String a) {
