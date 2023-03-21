@@ -5,12 +5,12 @@ public class Bank {
             
       }
       public void addAccount (Account ac) {
-            
+            this.acct = new Account [10];
       }
-      public Account getAccount (int index) {
+      public Account[] getAccount (int index) {
             return this.acct;
       }
-      public int getNumAcct () {
+      public int getNumAccount () {
             return this.numAcct;
       }
 }
