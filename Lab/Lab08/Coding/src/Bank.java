@@ -2,7 +2,7 @@ public class Bank {
       private Account acct [];
       private int numAcct;
       public Bank () {
-            //continued commit streak
+            //im too lazy wa
       }
       public void addAccount (Account ac) {
             this.acct = new Account [10];
