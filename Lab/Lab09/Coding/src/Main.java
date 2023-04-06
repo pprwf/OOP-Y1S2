@@ -7,6 +7,9 @@ public class Main {
 //            new CalculatorTwoGUI();
             
 //            ข้อที่ 3
-            new TellerGUI();
+//            new TellerGUI();
+            
+//            ข้อที่ 4
+            new MDIFromGUI();
       }
 }
