@@ -11,6 +11,6 @@ public class Main {
 //            new TellerGUI();
             
 //            ข้อที่ 4
-            new MDIFromGUI();
+//            new MDIFromGUI();
       }
 }
