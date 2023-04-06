@@ -13,7 +13,7 @@ public class CalculatorOneGUI {
             JTextField txt2 = new JTextField();
             JTextField txt3 = new JTextField();
             
-            fr.setLayout(new GridLayout(4, 0));
+            fr.setLayout(new GridLayout(4, 1));
             p.setLayout(new FlowLayout());
             
             p.add(b1);
