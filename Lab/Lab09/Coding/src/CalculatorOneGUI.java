@@ -13,9 +13,7 @@ public class CalculatorOneGUI {
             JTextField txt2 = new JTextField();
             JTextField txt3 = new JTextField();
             
-            fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             fr.setLayout(new GridLayout(4, 0));
-            fr.setBounds(600, 350, 300, 150);
             p.setLayout(new FlowLayout());
             
             p.add(b1);
@@ -27,6 +25,8 @@ public class CalculatorOneGUI {
             fr.add(p);
             fr.add(txt3);
             
+            fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            fr.setBounds(600, 350, 300, 150);
             fr.setVisible(true);
       }
 }

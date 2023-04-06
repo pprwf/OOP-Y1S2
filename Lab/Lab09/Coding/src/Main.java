@@ -1,5 +1,6 @@
 public class Main {
       public static void main(String[] args) {
-            new CalculatorOneGUI();
+//            ข้อที่ 1
+//            new CalculatorOneGUI();
       }
 }
