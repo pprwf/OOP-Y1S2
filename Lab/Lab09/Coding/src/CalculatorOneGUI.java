@@ -26,7 +26,7 @@ public class CalculatorOneGUI {
             fr.add(txt3);
             
             fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            fr.setBounds(600, 350, 300, 150);
+            fr.setBounds(500, 250, 300, 150);
             fr.setVisible(true);
       }
 }
