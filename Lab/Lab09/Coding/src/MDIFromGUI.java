@@ -54,6 +54,9 @@ public class MDIFromGUI {
 //            catch (Exception e) {
 //                  e.printStackTrace();
 //            }
+//            SwingUtilities.invokeLater(() -> {
+//                  MDIFromGUI fr = new MDIFromGUI();
+//            }
             
             fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             fr.setBounds(200, 60, 800, 500);
