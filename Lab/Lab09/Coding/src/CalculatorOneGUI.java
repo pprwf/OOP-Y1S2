@@ -2,15 +2,15 @@ import java.awt.*;
 import javax.swing.*;
 
 public class CalculatorOneGUI {
-      JFrame fr;
-      JPanel p;
-      JButton b1;
-      JButton b2;
-      JButton b3;
-      JButton b4;
-      JTextField txt1 ;
-      JTextField txt2;
-      JTextField txt3;
+      private JFrame fr;
+      private JPanel p;
+      private JButton b1;
+      private JButton b2;
+      private JButton b3;
+      private JButton b4;
+      private JTextField txt1 ;
+      private JTextField txt2;
+      private JTextField txt3;
       public CalculatorOneGUI () {
             fr = new JFrame("เครื่องคิดเลข");
             p = new JPanel();
