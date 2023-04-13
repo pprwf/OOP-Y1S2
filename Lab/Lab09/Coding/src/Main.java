@@ -5,7 +5,7 @@ public class Main {
 //            new CalculatorOneGUI();
             
 //            ข้อที่ 2
-//            new CalculatorTwoGUI();
+            new CalculatorTwoGUI();
             
 //            ข้อที่ 3
 //            new TellerGUI();
