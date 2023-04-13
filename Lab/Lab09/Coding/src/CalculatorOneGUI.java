@@ -2,16 +2,25 @@ import java.awt.*;
 import javax.swing.*;
 
 public class CalculatorOneGUI {
+      JFrame fr;
+      JPanel p;
+      JButton b1;
+      JButton b2;
+      JButton b3;
+      JButton b4;
+      JTextField txt1 ;
+      JTextField txt2;
+      JTextField txt3;
       public CalculatorOneGUI () {
-            JFrame fr = new JFrame("เครื่องคิดเลข");
-            JPanel p = new JPanel();
-            JButton b1 = new JButton("บวก");
-            JButton b2 = new JButton("ลบ");
-            JButton b3 = new JButton("คูณ");
-            JButton b4 = new JButton("หาร");
-            JTextField txt1 = new JTextField();
-            JTextField txt2 = new JTextField();
-            JTextField txt3 = new JTextField();
+            fr = new JFrame("เครื่องคิดเลข");
+            p = new JPanel();
+            b1 = new JButton("บวก");
+            b2 = new JButton("ลบ");
+            b3 = new JButton("คูณ");
+            b4 = new JButton("หาร");
+            txt1 = new JTextField();
+            txt2 = new JTextField();
+            txt3 = new JTextField();
             
             fr.setLayout(new GridLayout(4, 1));
             p.setLayout(new FlowLayout());
