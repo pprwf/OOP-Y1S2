@@ -2,17 +2,27 @@ import java.awt.*;
 import javax.swing.*;
 
 public class TellerGUI {
+      JFrame fr;
+      JPanel p1;
+      JPanel p2;
+      JLabel l1;
+      JLabel l2;
+      JTextField txt1;
+      JTextField txt2;
+      JButton b1;
+      JButton b2;
+      JButton b3;
       public TellerGUI() {
-            JFrame fr = new JFrame("Teller GUI");
-            JPanel p1 = new JPanel();
-            JPanel p2 = new JPanel();
-            JLabel l1 = new JLabel("Balance");
-            JLabel l2 = new JLabel("Amount");
-            JTextField txt1 = new JTextField("6000");
-            JTextField txt2 = new JTextField();
-            JButton b1 = new JButton("Deposit");
-            JButton b2 = new JButton("Withdraw");
-            JButton b3 = new JButton("Exit");
+            fr = new JFrame("Teller GUI");
+            p1 = new JPanel();
+            p2 = new JPanel();
+            l1 = new JLabel("Balance");
+            l2 = new JLabel("Amount");
+            txt1 = new JTextField("6000");
+            txt2 = new JTextField();
+            b1 = new JButton("Deposit");
+            b2 = new JButton("Withdraw");
+            b3 = new JButton("Exit");
             
             fr.setLayout(new GridLayout(2, 0));
             p1.setLayout(new GridLayout(2, 2));
