@@ -13,11 +13,11 @@ public class Main {
 //            new TellerGUI();
             
 //            ข้อที่ 4
-            try {
-                UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-                SwingUtilities.invokeLater(() -> { MDIFromGUI frame = new MDIFromGUI(); });
+//            try {
+//                UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//                SwingUtilities.invokeLater(() -> { MDIFromGUI frame = new MDIFromGUI(); });
       }
 }
