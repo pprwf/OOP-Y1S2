@@ -7,15 +7,15 @@ public class CalculatorOneGUI {
     private JTextField txt1, txt2, txt3;
     private JButton b1, b2, b3, b4;
     public CalculatorOneGUI () {
-        fr = new JFrame ("เครื่องคิดเลข");
+        fr = new JFrame ("Calculator");
         p = new JPanel ();
         txt1 = new JTextField ();
         txt2 = new JTextField ();
         txt3 = new JTextField ();
-        b1 = new JButton ("บวก");
-        b2 = new JButton ("ลบ");
-        b3 = new JButton ("คูณ");
-        b4 = new JButton ("หาร");
+        b1 = new JButton ("Plus");
+        b2 = new JButton ("Minus");
+        b3 = new JButton ("Multiply");
+        b4 = new JButton ("Divide");
         
         fr.setLayout(new GridLayout(4, 1));
         p.setLayout(new FlowLayout());
