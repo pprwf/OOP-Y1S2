@@ -19,7 +19,7 @@ public class Account {
                   System.out.println("Input number must be a positive integer.");
             }
             else if (this.getBalance() - a < 0) {
-//                  throw new WithdrawException("Account " + this.name + " has not enough money.");
+                  throw new WithdrawException("Account " + this.name + " has not enough money.");
             }
             else {
                   System.out.println(a + " baht is withdrawn from " + this.getName() + ".");

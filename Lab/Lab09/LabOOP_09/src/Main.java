@@ -11,7 +11,7 @@ public class Main {
             cust.getAcct().withdraw(200);
         }
         catch (WithdrawException e) {
-            System.out.println(e.getMessage());
+            System.out.println(e);
         }
         finally {
             System.out.println("Thank you.");

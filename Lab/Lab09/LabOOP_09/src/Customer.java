@@ -2,7 +2,6 @@ public class Customer {
       private String firstName;
       private String lastName;
       private CheckingAccount acct;
-      private 
       public Customer (String firstName, String lastName, CheckingAccount acct) {
             this.firstName = firstName;
             this.lastName = lastName;
