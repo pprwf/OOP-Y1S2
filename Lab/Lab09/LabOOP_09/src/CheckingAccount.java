@@ -19,23 +19,23 @@ public class CheckingAccount extends Account{
       public double getCredit () {
             return this.credit;
       }
-      public void withdraw (double a) {
-            if (this.getBalance() - a + this.getCredit() < 0) {
-                  System.out.println("Not enough money!");
+      public void withdraw (double amount) throws WithdrawException {
+            if (this.getBalance() + this.getCredit() - amount < 0) {
+//                  throw new WithdrawException("Account " + this.name + " has not enough money.");
             }
             else {
-                  if (this.getBalance() - a >= 0) {
-                        this.setBalance(this.getBalance() - a);
+                  if (this.getBalance() - amount >= 0) {
+                        this.setBalance(this.getBalance() - amount);
                   }
                   else {
-                        this.setCredit(this.getCredit() - (a - this.getBalance()));
+                        this.setCredit(this.getCredit() - (amount - this.getBalance()));
                         this.setBalance(0);
                   }
-                  System.out.println(a + " baht is withdrawn from " + this.getName() + " and your credit balance is " + this.getCredit() + ".");
+                  System.out.println(amount + " baht is withdrawn from " + this.getName() + " and your credit balance is " + this.getCredit() + ".");
             }
       }
-      public void withdraw (String a) {
-            withdraw (Double.parseDouble(a));
+      public void withdraw (String amount) throws WithdrawException {
+            withdraw (Double.parseDouble(amount));
       }
       public String toString () {
             return "The " + this.getName() + " account has " + this.getBalance() + " baht and " + this.getCredit() + " credits.";
