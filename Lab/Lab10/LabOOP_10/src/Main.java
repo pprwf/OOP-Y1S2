@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        new CalculatorOneGUI();
+//        new CalculatorOneGUI();
+        
+        new CalculatorTwoGUI();
     }
 }
