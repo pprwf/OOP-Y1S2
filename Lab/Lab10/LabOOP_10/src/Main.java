@@ -8,12 +8,12 @@ public class Main {
         
 //        new TellerGUI();
         
-        try {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        } 
-        catch (Exception e) {
-            e.printStackTrace();
-        }
-        SwingUtilities.invokeLater(() -> {MDIFromGUI ui = new MDIFromGUI();});
-    }
+//        try {
+//            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+//        } 
+//        catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        SwingUtilities.invokeLater(() -> {MDIFromGUI ui = new MDIFromGUI();});
+//    }
 }
