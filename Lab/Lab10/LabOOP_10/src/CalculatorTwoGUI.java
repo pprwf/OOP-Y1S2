@@ -6,7 +6,7 @@ public class CalculatorTwoGUI {
     private JPanel p;
     private JButton b;
     private JTextField txt;
-    private JButton b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b_del, b_plus, b_sub, b_mult, b_divide, b_equal;
+    private JButton b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b_delete, b_plus, b_sub, b_mult, b_divide, b_equal;
     public CalculatorTwoGUI () {
         fr = new JFrame("My Calculator");
         p = new JPanel();
@@ -21,7 +21,7 @@ public class CalculatorTwoGUI {
         b7 = new JButton("7");
         b8 = new JButton("8");
         b9 = new JButton("9");
-        b_del = new JButton("c");
+        b_delete = new JButton("c");
         b_plus = new JButton("+");
         b_sub = new JButton("-");
         b_mult = new JButton("x");
@@ -44,7 +44,7 @@ public class CalculatorTwoGUI {
         p.add(b3);
         p.add(b_mult);
         p.add(b0);
-        p.add(b_del);
+        p.add(b_delete);
         p.add(b_equal);
         p.add(b_divide);
         fr.add(txt, BorderLayout.NORTH);
