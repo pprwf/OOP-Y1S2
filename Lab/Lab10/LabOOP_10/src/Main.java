@@ -6,14 +6,14 @@ public class Main {
         
 //        new CalculatorTwoGUI();
         
-        new TellerGUI();
+//        new TellerGUI();
         
-//        try {
-//            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-//        } 
-//        catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        SwingUtilities.invokeLater(() -> {MDIFromGUI ui = new MDIFromGUI();});
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } 
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        SwingUtilities.invokeLater(() -> {MDIFromGUI ui = new MDIFromGUI();});
     }
 }
