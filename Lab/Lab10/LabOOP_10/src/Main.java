@@ -15,5 +15,5 @@ public class Main {
 //            e.printStackTrace();
 //        }
 //        SwingUtilities.invokeLater(() -> {MDIFromGUI ui = new MDIFromGUI();});
-//    }
+    }
 }
