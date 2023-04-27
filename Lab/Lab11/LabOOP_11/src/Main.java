@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
 //        new CalculatorOneGUI();
         
-        new CalculatorSample();
+//        new CalculatorSample();
         
-//        new TellerGUI();
+        new TellerGUI();
         
 //        try {
 //            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
