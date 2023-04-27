@@ -6,14 +6,6 @@ public class Main {
         
 //        new CalculatorSample();
         
-        new TellerGUI();
-        
-//        try {
-//            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-//        } 
-//        catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        SwingUtilities.invokeLater(() -> {MDIFromGUI ui = new MDIFromGUI();});
+//        new TellerGUI();
     }
 }
